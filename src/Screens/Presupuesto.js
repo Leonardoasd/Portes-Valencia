@@ -10,16 +10,16 @@ const Presupuesto = () => {
             contactar por Whatsapp al número del móvil 674 983 390.
              Muchas gracias!
         </p>
-        <form className={styles.forms} >
+        <form className={styles.forms} id="formulario" name="form" >
             <div className={styles.divOne}>
                 <h3>Datos de contacto</h3>
                 <div className={styles.divs} >
                   <label>Nombre:</label>
-                  <input type="text" />
+                  <input type="text"/>
                 </div>
                 <div className={styles.divs}>
                   <label>Email:</label>
-                  <input type="text" />
+                  <input type="text"/>
                 </div>
                 <div className={styles.divs}>
                   <label>Teléfono de contacto:</label>

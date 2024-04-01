@@ -46,7 +46,7 @@ const NavBar = () => {
     {
       id: 1,
       name: "Inicio",
-      link: "/"
+      link: "/Portes-Valencia"
     },
     {
       id: 2,
@@ -56,7 +56,7 @@ const NavBar = () => {
     {
       id: 3,
       name: "Solicitar presupuesto",
-      link: "Presupuesto"
+      link: "/Presupuesto"
     },
     {
       id: 4,

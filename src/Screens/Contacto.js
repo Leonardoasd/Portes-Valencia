@@ -8,7 +8,7 @@ const Contacto = () => {
         <p>Por favor rellene el siguiente formulario y le responderemos 
             lo antes posible. Si lo desea puede llamarnos o contactar por
              whatsapp al número del móvil 674983390. Muchas gracias!</p>
-        <form className={styles.form} >
+        <form className={styles.form} id="contacto" >
             <div className={styles.divForm} >
                 <label>Nombre: </label><input type="text" />
             </div>

@@ -20,22 +20,22 @@ const footer = () => {
         </div>
         <div className={styles.secondFooter} >
             <div className={styles.divServicios}>
-                <a href="#" >- Alquiler de trasteros o guardamuebles</a>
-                <a href="#"> - Alquiler de vehiculo con condutor</a>
-                <a href="#"> - Empresa mudanza con grúa</a>
-                <a href="#"> - Montajes y desmontajes</a>
-                <a href="#"> - Mudanzas</a>
-                <a href="#"> - Mudanzas baratas valencia</a>
-                <a href="#"> - Mudanzas desde torrent</a>
-                <a href="#"> - Mudanzas económicas almassera</a>
-                <a href="#"> - Mudanzas pequeñas y portes economicos en Valencia</a>
-                <a href="#"> - Mudanzas rápidas en Valencia</a>
-                <a href="#"> - Pequeñas mudanzas en Valencia</a>
-                <a href="#"> - Pequeños portes</a>
-                <a href="#"> - Portes dias festivos</a>
-                <a href="#"> - Portes y pequeñas mudanzas pueblos de Valencia</a>
+                <a href="/">- Alquiler de trasteros o guardamuebles</a>
+                <a href="/"> - Alquiler de vehiculo con condutor</a>
+                <a href="/"> - Empresa mudanza con grúa</a>
+                <a href="/"> - Montajes y desmontajes</a>
+                <a href="/"> - Mudanzas</a>
+                <a href="/"> - Mudanzas baratas valencia</a>
+                <a href="/"> - Mudanzas desde torrent</a>
+                <a href="/"> - Mudanzas económicas almassera</a>
+                <a href="/"> - Mudanzas pequeñas y portes economicos en Valencia</a>
+                <a href="/"> - Mudanzas rápidas en Valencia</a>
+                <a href="/"> - Pequeñas mudanzas en Valencia</a>
+                <a href="/"> - Pequeños portes</a>
+                <a href="/"> - Portes dias festivos</a>
+                <a href="/"> - Portes y pequeñas mudanzas pueblos de Valencia</a>
             </div>
-            <p>PORTES EN VALENCIA, PEQUEÑAS MUDANZAS EN VALENCIA <a href="#">www.portesvalencia.com</a></p>
+            <p>PORTES EN VALENCIA, PEQUEÑAS MUDANZAS EN VALENCIA <a href="/">www.portesvalencia.com</a></p>
         </div>
     </footer>
   )
