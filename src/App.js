@@ -16,7 +16,7 @@ function App() {
       <NavButton />
       <ScrollToTop />
       <Routes scrollToTop={true} >
-        <Route path='/Portes-Valencia' element={<Inicio />} />
+        <Route path='/' element={<Inicio />} />
         <Route path='/Quienes-somos' element={<QuienesSomos />} />
         <Route path='/Presupuesto' element={<Presupuesto />} />
         <Route path="/Contacto" element={<Contacto />} />

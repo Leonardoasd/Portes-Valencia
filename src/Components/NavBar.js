@@ -46,7 +46,7 @@ const NavBar = () => {
     {
       id: 1,
       name: "Inicio",
-      link: "/Portes-Valencia"
+      link: "/"
     },
     {
       id: 2,
