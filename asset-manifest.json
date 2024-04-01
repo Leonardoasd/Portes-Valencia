@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Portes-Valencia/static/css/main.979dea8e.css",
+    "main.js": "/Portes-Valencia/static/js/main.4fcf54a1.js",
+    "static/js/453.ec22b987.chunk.js": "/Portes-Valencia/static/js/453.ec22b987.chunk.js",
+    "static/media/fondo-porte.jpg": "/Portes-Valencia/static/media/fondo-porte.208c982434ad6376ef6a.jpg",
+    "static/media/LogoPrincipal.png": "/Portes-Valencia/static/media/LogoPrincipal.13b631a463258d8d80f3.png",
+    "static/media/pic03.jpg": "/Portes-Valencia/static/media/pic03.cb24f3a9398308cd5b77.jpg",
+    "static/media/nasalization-rg.otf": "/Portes-Valencia/static/media/nasalization-rg.4cbf2019f1f7337b2594.otf",
+    "static/media/atencionCliente.jpg": "/Portes-Valencia/static/media/atencionCliente.014d36b86f4a5764395d.jpg",
+    "static/media/71.jpg": "/Portes-Valencia/static/media/71.c2cf87ecee1da3b384a2.jpg",
+    "static/media/73.jpg": "/Portes-Valencia/static/media/73.1639a91da1290639107e.jpg",
+    "static/media/70.jpg": "/Portes-Valencia/static/media/70.8cbd14fe5ea4da850a6f.jpg",
+    "static/media/68.jpg": "/Portes-Valencia/static/media/68.3624b82a6fac53b8977d.jpg",
+    "static/media/72.jpg": "/Portes-Valencia/static/media/72.19eeb40850da9f1beef3.jpg",
+    "static/media/pic04.jpg": "/Portes-Valencia/static/media/pic04.9167899c92b7dd6c7858.jpg",
+    "static/media/74.jpg": "/Portes-Valencia/static/media/74.719e793728c0741f779f.jpg",
+    "static/media/67.jpg": "/Portes-Valencia/static/media/67.0036aee1bef1064c23bb.jpg",
+    "static/media/69.jpg": "/Portes-Valencia/static/media/69.7aa06873d1ea56fea8ac.jpg",
+    "static/media/pic05.jpg": "/Portes-Valencia/static/media/pic05.851a2e9f61bb08361691.jpg",
+    "index.html": "/Portes-Valencia/index.html",
+    "main.979dea8e.css.map": "/Portes-Valencia/static/css/main.979dea8e.css.map",
+    "main.4fcf54a1.js.map": "/Portes-Valencia/static/js/main.4fcf54a1.js.map",
+    "453.ec22b987.chunk.js.map": "/Portes-Valencia/static/js/453.ec22b987.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.979dea8e.css",
+    "static/js/main.4fcf54a1.js"
+  ]
+}
