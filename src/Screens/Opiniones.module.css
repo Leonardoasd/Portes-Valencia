@@ -1,0 +1,87 @@
+.opiniones{
+    padding-top: 12vh;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comentaryBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20vw;
+    height: 62vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 6px 0.5px rgb(0, 0, 0);
+    
+}
+.comentaryBox input:not(.textarea){
+    height: 5vh;
+    width: 80%;
+}
+.comentaryBox input::placeholder{
+    color: black;
+    font-weight: bold;
+    width: 5vw;
+    padding-left: 1vw;
+    opacity: 0.5;
+}
+.button{
+    background-color: rgb(0, 138, 212);
+    width: 6vw;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 166, 255);
+}
+.textarea{
+    height: 15vh;
+    resize: none;
+    width: 80%;
+}
+.textarea::placeholder{
+    position: relative;
+    top: 10px;
+    color: black;
+    font-weight: bold;
+    width: 5vw;
+    padding-left: 1vw;
+    opacity: 0.5;
+}
+.comments{
+    border: 1px solid black;
+    width: 80vw;
+    max-height: 100vh;
+    border-radius: 15px;
+    overflow-x: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 6px 0.5px rgb(0, 0, 0);
+}
+.divComments{
+    border-bottom: 1px solid black;
+    text-align: start;
+    padding: 1vw 0 1vw 3vw;
+}
+@media only screen and (max-width: 767px) {
+    .comentaryBox{
+        width: 80vw;
+        margin-top: 3vw;
+        margin-bottom: 3vh;
+    }
+    .comentaryBox input::placeholder{
+        width: 60vw;
+    }
+    .textarea::placeholder{
+        width: 60vw;
+    }
+    .comments{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+}

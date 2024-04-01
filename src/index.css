@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: mi-fuente;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+html {
+  background: #f7f7f7 url("./Imagenes/bg.jpg");
+  height: 100%;
+}
+
+@font-face{
+  font-family: mi-fuente;
+  src: url(./Components/nasalization-rg.otf);
+}

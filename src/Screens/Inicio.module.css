@@ -1,0 +1,185 @@
+.Inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.DivImgFurgo{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Imagenes/fondo-porte.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+.divTitulo{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px 6px rgba(0, 0, 0, 0.5);
+    background-color: rgba(237, 231, 231, 0.1);
+    backdrop-filter: blur(5px);
+}
+.saludo {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    width: 640px;
+    border-right: 4px solid white;
+    animation: typing 2s steps(14), blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+}
+.valencia{
+    color: rgb(255, 128, 0)
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+.divPresupuesto{
+    width: 70vw;
+    height: 50vh;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.divPresupuesto div {
+    height: 80%;
+    width: 50%;
+}
+.divPresupuesto div h1{
+    font-size: 3em;
+}
+.divPresupuesto button {
+    background-color: rgb(0, 138, 212);
+    border-radius: 5px;
+    width: 34vw;
+    height: 80px;
+    font-size: 2.5em;
+    color: white;
+    border: none;
+}
+.divPresupuesto button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 166, 255);
+}
+.divPresupuesto p {
+    width: 40%;
+    font-size: 3em;
+    color: gray;
+}
+.divGallery{
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 15px;
+    margin: 10vh;
+}
+.Gallery{
+    width: 20vw;
+    background-color: black;
+}
+.tresAnuncios{
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tresAnuncios div{
+    width: 22vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.tresAnuncios h2{
+    width: 20vw;
+    margin-top: 10vh;
+}
+.tresAnuncios img{
+    height: 200px;
+    width: 100%;
+    border-radius: 15px 15px 0 0
+}
+@media only screen and (max-width: 767px) {
+    .saludo{
+        font-size: 1.1em;
+    }
+    .divTitulo{
+        width: 90vw;
+        height: 18vh;
+        border-radius: 5px;
+    }
+    .divPresupuesto{
+        font-size: 0.4em;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .divPresupuesto div{
+        width: 90%;
+        height: 75%;
+    }
+    .divPresupuesto div h1{
+        font-size: 2.2rem;
+        width: 100%;
+        margin: 4vh 0 6vh 0;
+    }
+    .divPresupuesto div button{
+        width: 90%;
+        font-size: 3.6em;
+    }
+    .divPresupuesto p{
+        width: 80%;
+        margin: 0;
+    }
+    .divGallery{
+        width: 88vw;
+        height: auto;
+    }
+    .Gallery{
+        width: 80vw;
+    }
+    .tresAnuncios{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .tresAnuncios div{
+        width: 95%;
+        height: 45vh;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+    }
+    .tresAnuncios h2{
+        width: 80%;
+        margin-top: 2vh;
+    }
+    .tresAnuncios p{
+        margin: 5px;
+    }
+  }
+  

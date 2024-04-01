@@ -1,0 +1,80 @@
+.Presupuesto{
+    padding-top: 13vh;
+    font-family: "Roboto", sans-serif;
+}
+.description{
+    margin: 3vw;
+}
+.forms{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 35vw 35vw;
+    grid-template-rows: 45vh 45vh 20vh;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    grid-gap: 50px;
+}
+.divOne, .divTwo, .divThree, .divFour{
+    box-sizing: border-box;
+    font-size: 0.7em;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 6px 2px rgb(0, 0, 0);
+}
+.divs{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh 3vw 1vh 3vw;
+}
+.divOne div{
+    margin-top: 3vh
+}
+.npp{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+.npp input{
+    width: 3vw;
+}
+.divFive{
+    grid-column: 1/3;
+}
+.textarea{
+    width: 70%;
+    height: 60%;
+}
+.divFive button{
+    background-color: rgb(0, 138, 212);
+    border-radius: 5px;
+    width: 24vw;
+    height: 60px;
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    margin: 1vw;
+}
+.divFive button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 166, 255);
+}
+@media only screen and (max-width: 767px) {
+    .forms{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+    .divOne, .divTwo, .divThree, .divFour{
+        width: 80%;
+        height: 35vh;
+    }
+    .divFive button{
+        width: 50vw;
+        margin: 20px;
+    }
+}

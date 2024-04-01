@@ -1,0 +1,60 @@
+.Contacto{
+    padding-top: 14vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+.Contacto p{
+    width: 70vw;
+}
+.form{
+    border: 1px solid black;
+    width: 30vw;
+    height: 58vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 6px 2px rgb(0, 0, 0);
+    margin-top: 5vh;
+}
+.form button{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 5px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    background-color: rgb(0, 138, 212);
+    border-radius: 5px;
+}
+.form button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 166, 255);
+}
+.divForm{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0.5vw;
+}
+.divForm2{
+    margin: 20px;
+}
+@media only screen and (max-width: 767px) {
+    .form{
+        width: 80vw;
+        margin-bottom: 3vh;
+    }
+    .divForm{
+        margin: 1vh 0 1vh 0
+    }
+    .form button{
+        width: 40vw;
+        font-size: 1.3em;
+    }
+}

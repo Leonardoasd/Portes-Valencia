@@ -1,0 +1,243 @@
+:root{
+    --color-nav: rgb(118, 117, 117);
+    --color-hover: rgb(77, 75, 75);
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
+    z-index: 10;
+    height: 10vh;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1em;
+    white-space: nowrap;
+    transition: 0.3s ease;
+}
+.navBarScroll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    transition: background-color 0.3s ease, opacity 0.3s ease; 
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    color: white;
+    white-space: nowrap;
+    transition: 0.3s ease;
+    }
+.navOpen {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-nav);
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+    z-index: 100;
+    white-space: nowrap;
+    background-color: black;
+    color: white;
+    transition: 0.3s ease;
+}
+.navOpenContainer{
+    margin: 0;
+    padding: 0;
+}
+.navLink {
+    display: flex;
+    font-size: 1.7em;
+    font-weight: 400;
+    transition: 0.5s;
+    position: relative;
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 6vh;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin: 0 0.5vw 0 0.5vw
+}
+.navLink:hover{
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0px 0px 6px 2px rgb(246, 246, 246);
+}
+.navLinkActive{
+    display: flex;
+    font-size: 1.7em;
+    font-weight: 400;
+    transition: 0.5s;
+    position: relative;
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 6vh;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    margin: 0 0.5vw 0 0.5vw;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0px 0px 6px 2px rgb(246, 246, 246);
+}
+.NavLinkP{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contLogo{
+    height: 100%;
+    width: 35vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contLogo:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.logo {
+    height: 100%;
+    width: auto;
+}
+.closeNav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.linksContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.66rem;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: 8vh;
+    margin-right: 2vw;
+}
+.menuNav {
+    margin: 0 10px 0 0;
+    height: 5vh;
+    width: 9vw; 
+}
+.menuNav, .closeNav {
+    transition: 0.5s;
+}
+.menuNav:hover, .closeNav:hover {
+    cursor: pointer;
+    background-color:  var(--color-hover);
+    border-radius: 10%;
+    padding: 5px;
+}
+
+.border {
+    animation-name: animacionborde;
+    animation-duration: 1s;
+    background-color: white;
+    animation-fill-mode: forwards;
+    margin-bottom: 50px;
+    width: 100%;
+}
+@keyframes animacionborde {
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 2px;
+    }
+}
+@media (max-width: 600px) {
+    .contLogo {
+        font-size: 0.6em;
+        width: 20vw;
+        font-size: 0.4em;
+        overflow: hidden;
+    }
+    .contLogo h2 {
+        opacity: 0;
+        height: 0;
+        width: 0;
+        font-size: 0em;
+    }
+    .logo {
+        height: 6vh;
+    }
+}
+@media (max-width: 400px) {
+    .contLogo {
+        font-size: 0.6em;
+        width: 20vw;
+        font-size: 0.4em;
+        overflow: hidden;
+    }
+    .contLogo h2 {
+        opacity: 0;
+        height: 0;
+        width: 0;
+        font-size: 0em;
+    }
+    .logo {
+        height: 6vh;
+    }
+}
+@media (max-width: 310px) {
+    .contLogo {
+        font-size: 0.8em;
+    }
+}
+@media (min-height: 1300px){
+    .navBar {
+        height: 220px;
+        font-size: 1.8em;
+    }
+    .navBarScroll {
+        font-size: 1.8em;
+        height: 220px;
+    }
+    .menuNav {
+        height: 8vh;
+        width: 8vw;
+        margin-right: 30px;
+    }
+    .closeNav {
+        height: 10vh;
+        width: 10vw;
+    }
+    .navLink {
+        font-size: 4.5em;
+        margin: 150px 0 0px 0;
+    }
+    .logo{
+        height: 120px;
+    }
+}
+@media (min-height: 1700px){
+    .navBar {
+        height: 220px;
+        font-size: 1.4em;
+    }
+    .navBarScroll {
+        height: 220px;
+        font-size: 1.4em;
+    }
+}
