@@ -4,6 +4,11 @@ import grua from "../Imagenes/pic04.jpg";
 import cajas from "../Imagenes/pic05.jpg"
 
 const QuienesSomos = () => {
+
+    function abrirURL() {
+        window.open("/#/Presupuesto", "_self");
+      }
+
   return (
     <div className={styles.quienesSomos}>
         <div className={styles.divLeft} >
@@ -12,7 +17,7 @@ const QuienesSomos = () => {
                 <img src={grua} alt="grua" />
                 <img src={cajas} alt="cajas" />
             </div>
-            <button>Solicitar presupuesto</button>
+            <button onClick={abrirURL} >Solicitar presupuesto</button>
         </div>
         <div className={styles.divRight} >
             <h1>¿Quienes somos?</h1>

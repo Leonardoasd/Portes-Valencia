@@ -8,21 +8,7 @@
 .Contacto p{
     width: 70vw;
 }
-.form{
-    border: 1px solid black;
-    width: 30vw;
-    height: 58vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-    box-shadow: 0px 0px 6px 2px rgb(0, 0, 0);
-    margin-top: 5vh;
-}
-.form button{
+.button{
     width: 12vw;
     height: 6vh;
     border-radius: 5px;
@@ -32,29 +18,115 @@
     background-color: rgb(0, 138, 212);
     border-radius: 5px;
 }
-.form button:hover {
+.button:hover {
     cursor: pointer;
     background-color: rgb(0, 166, 255);
 }
-.divForm{
+.comentaryBox{
     display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin: 0.5vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25vw;
+    height: 70vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 6px 0.5px rgb(0, 0, 0);
+    
 }
-.divForm2{
-    margin: 20px;
+.comentaryBox input:not(.textarea):not(.checkbox){
+    height: 5vh;
+    width: 80%;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.comentaryBox input::placeholder{
+    color: black;
+    font-weight: bold;
+    width: 5vw;
+    padding-left: 1vw;
+    opacity: 0.5;
+}
+.button{
+    background-color: rgb(0, 138, 212);
+    width: 6vw;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 166, 255);
+}
+.textarea{
+    height: 15vh;
+    resize: none;
+    width: 80%;
+    padding: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.textarea::placeholder{
+    position: relative;
+    top: 10px;
+    color: black;
+    font-weight: bold;
+    width: 12vw;
+    padding-left: 1vw;
+    opacity: 0.5;
+}
+.select{
+    height: 5vh;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.select option:not(.optOne){
+    color: black;
 }
 @media only screen and (max-width: 767px) {
-    .form{
+    .Contacto h1{
         width: 80vw;
+    }
+    .Contacto p{
+        width: 86vw;
+    }
+    .comentaryBox{
+        width: 80vw;
+        height: 50vh;
+        margin-top: 3vw;
         margin-bottom: 3vh;
     }
-    .divForm{
-        margin: 1vh 0 1vh 0
+    .comentaryBox input:not(.textarea):not(.checkbox){
+        height: 4vh;
     }
-    .form button{
-        width: 40vw;
-        font-size: 1.3em;
+    .comentaryBox input::placeholder{
+        width: 60vw;
+    }
+    .select{
+        height: 4vh;
+    }
+    .textarea{
+        height: 10vh;
+    }
+    .textarea::placeholder{
+        width: 60vw;
+    }
+    .comments{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+    .button{
+        width: 35vw;
+        height: 5vh;
+        font-size: 1em;
+    }
+    .divForm2{
+        font-size: 0.8em;
     }
 }

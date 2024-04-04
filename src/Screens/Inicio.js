@@ -10,9 +10,9 @@ import "react-image-gallery/styles/css/image-gallery.css";
 const Inicio = () => {
 
   function abrirURL() {
-    window.open("/Presupuesto", "_self");
+    window.open("/#/Presupuesto", "_self");
   }
-
+  
   return (
     <div className={styles.Inicio} id="home" >
         <div className={styles.DivImgFurgo}>

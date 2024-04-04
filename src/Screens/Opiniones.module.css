@@ -85,3 +85,8 @@
         margin-bottom: 3vh;
     }
 }
+@media (max-width: 400px){
+    .divComments{
+        font-size: 0.8em;
+    }
+}

@@ -182,4 +182,40 @@
         margin: 5px;
     }
   }
+  @media (max-width: 400px){
+    .saludo{
+        font-size: 0.9em;
+        width: 90%;
+    }
+    .divPresupuesto div {
+        height: 65%;
+    }
+    .divPresupuesto div h1 { 
+        font-size: 1.6rem;
+        height: 35%;
+        margin-bottom: 3vh
+    }
+    .tresAnuncios{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .tresAnuncios div{
+        width: 95%;
+        height: 45vh;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
+    }
+    .tresAnuncios h2{
+        width: 80%;
+        font-size: 1.4em;
+        margin-top: 2vh;
+    }
+    .tresAnuncios p{
+        margin: 5px;
+    }
+    .tresAnuncios img{
+        height: 45%;
+    }
+  }
   

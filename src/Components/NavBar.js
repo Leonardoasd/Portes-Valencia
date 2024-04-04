@@ -69,11 +69,14 @@ const NavBar = () => {
       link: "Contacto"
     }
   ]
+  function Home() {
+    window.scrollTo(0,0)
+  }
   
   return (
     <div className={navBarOpen === false ? (scroll ? styles.navBarScroll : styles.navBar) : styles.navOpen}>
       {!navBarOpen && 
-      <Link className={styles.contLogo} to="/" smooth duration={500} >
+      <Link className={styles.contLogo} to="/" smooth duration={500} onClick={Home} >
         <img src={logotipo} alt="logotipo" className={styles.logo}/>
       </Link>}
       {!navBarOpen && (windowDimension.width < 900 || windowDimension.height > 1023) ? (
