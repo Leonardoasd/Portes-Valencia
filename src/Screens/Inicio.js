@@ -10,7 +10,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 const Inicio = () => {
 
   function abrirURL() {
-    window.open("/#/Presupuesto", "_self");
+    window.open("/Portes-Valencia/#/Presupuesto", "_self");
   }
   
   return (

@@ -6,7 +6,7 @@ import cajas from "../Imagenes/pic05.jpg"
 const QuienesSomos = () => {
 
     function abrirURL() {
-        window.open("/#/Presupuesto", "_self");
+        window.open("/Portes-Valencia/#/Presupuesto", "_self");
       }
 
   return (
