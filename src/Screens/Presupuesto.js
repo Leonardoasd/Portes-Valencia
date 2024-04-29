@@ -13,26 +13,11 @@ const Presupuesto = () => {
         <form className={styles.forms} id="formulario" name="form" >
             <div className={styles.divOne}>
                 <h3>Datos de contacto</h3>
-                <div className={styles.divs} >
-                  <label>Nombre:</label>
-                  <input type="text"/>
-                </div>
-                <div className={styles.divs}>
-                  <label>Email:</label>
-                  <input type="text"/>
-                </div>
-                <div className={styles.divs}>
-                  <label>Teléfono de contacto:</label>
-                  <input type="text" />
-                </div>
-                <div className={styles.divs}>
-                  <label>Móvil: </label>
-                  <input type="text" />
-                </div>
-                <div className={styles.divs}>
-                  <label>¿Cuando se va mudar?:</label>
-                  <input type="text" placeholder=' Día y hora aproximados ' />
-                </div>
+                <input type="text" placeholder='Nombre' />
+                <input type="text" placeholder='Email' />
+                <input type="text" placeholder='Teléfono de contacto' />
+                <input type="text" placeholder='Móvil' />
+                <input type="text" placeholder='¿Cuando se va mudar? (Dia y hora aproximados) ' />
             </div>
             <div className={styles.divTwo}>
               <h3>Detalles de la mudanza</h3>
@@ -41,36 +26,17 @@ const Presupuesto = () => {
             </div>
             <div className={styles.divThree}>
               <h3>Dirección de origen</h3>
-              <div className={styles.divs}>
-                <label>Dirección: </label>
-                <input type="text" />
-              </div>
+              <input type="text" placeholder='Dirección' />
               <div className={styles.npp}>
-                <div >
-                  <label>Número:  </label>
-                  <input type="text" />
-                </div>
-                <div>
-                  <label>Puerta: </label>
-                  <input type="text" />
-                </div>
-                <div>
-                  <label>Piso: </label>
-                  <input type="text" />
-                </div>
+                <input type="text" placeholder='Número' />
+                <input type="text" placeholder='Puerta' />
+                <input type="text" placeholder='Piso' />
               </div>
+              <input type="text" placeholder='Localidad' />
+              <input type="text" placeholder='C.Postal' />
               <div className={styles.divs}>
-                <label>Localidad: </label>
-                <input type="text" />
-              </div>
-              <div className={styles.divs}>
-                <label>C.postal: </label>
-                <input type="text" />
-              </div>
-              <div className={styles.divs}>
-                <label>Provincia: </label>
-                <select>
-                  <option>--Selecciona--</option>
+                <select className={styles.select} >
+                  <option className={styles.optOne}>Provincia</option>
                   <option>Valencia</option>
                   <option>Madrid</option>
                   <option>Barcelona</option>
@@ -83,21 +49,16 @@ const Presupuesto = () => {
                 </select>
               </div>
               <div className={styles.divs}>
-                <label>Ascensor: </label>
-                <select>
-                  <option>¿Dispone de ascensor?</option>
+                <select className={styles.select}>
+                  <option className={styles.optOne}>¿Dispone de ascensor?</option>
                   <option>Si</option>
                   <option>No</option>
                 </select>
               </div>
+              <input type="text" placeholder='Dirección' />
               <div className={styles.divs}>
-                <label>Dirección: </label>
-                <input type="text" />
-              </div>
-              <div className={styles.divs}>
-                <label>Tipo de edificio: </label>
-                <select>
-                  <option>--Seleccione opción--</option>
+                <select className={styles.select}>
+                  <option className={styles.optOne}>Tipo de edificio</option>
                   <option>Casa</option>
                   <option>Piso</option>
                   <option>Duplex</option>
@@ -108,36 +69,17 @@ const Presupuesto = () => {
             </div>
             <div className={styles.divFour}>
               <h3>Dirección de destino</h3>
-              <div className={styles.divs}>
-                <label>Dirección: </label>
-                <input type="text" />
-              </div>
+              <input type="text" placeholder='Dirección' />
               <div className={styles.npp}>
-                <div >
-                  <label>Número:  </label>
-                  <input type="text" />
-                </div>
-                <div>
-                  <label>Puerta: </label>
-                  <input type="text" />
-                </div>
-                <div>
-                  <label>Piso: </label>
-                  <input type="text" />
-                </div>
+                <input type="text" placeholder='Número' />
+                <input type="text" placeholder='Puerta' />
+                <input type="text" placeholder='Piso' />
               </div>
+              <input type="text" placeholder='Localidad' />
+              <input type="text" placeholder='C.Postal' />
               <div className={styles.divs}>
-                <label>Localidad: </label>
-                <input type="text" />
-              </div>
-              <div className={styles.divs}>
-                <label>C.postal: </label>
-                <input type="text" />
-              </div>
-              <div className={styles.divs}>
-                <label>Provincia: </label>
-                <select>
-                  <option>--Selecciona--</option>
+                <select className={styles.select} >
+                  <option className={styles.optOne}>Provincia</option>
                   <option>Valencia</option>
                   <option>Madrid</option>
                   <option>Barcelona</option>
@@ -150,21 +92,16 @@ const Presupuesto = () => {
                 </select>
               </div>
               <div className={styles.divs}>
-                <label>Ascensor: </label>
-                <select>
-                  <option>¿Dispone de ascensor?</option>
+                <select className={styles.select}>
+                  <option className={styles.optOne}>¿Dispone de ascensor?</option>
                   <option>Si</option>
                   <option>No</option>
                 </select>
               </div>
+              <input type="text" placeholder='Dirección' />
               <div className={styles.divs}>
-                <label>Dirección: </label>
-                <input type="text" />
-              </div>
-              <div className={styles.divs}>
-                <label>Tipo de edificio: </label>
-                <select>
-                  <option>--Seleccione opción--</option>
+                <select className={styles.select}>
+                  <option className={styles.optOne}>Tipo de edificio</option>
                   <option>Casa</option>
                   <option>Piso</option>
                   <option>Duplex</option>

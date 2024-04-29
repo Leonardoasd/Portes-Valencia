@@ -33,7 +33,6 @@
     border-radius: 5px;
     background-color: white;
     box-shadow: 0px 0px 6px 0.5px rgb(0, 0, 0);
-    
 }
 .comentaryBox input:not(.textarea):not(.checkbox){
     height: 5vh;

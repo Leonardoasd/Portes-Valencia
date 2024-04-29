@@ -8,30 +8,85 @@
 .forms{
     width: 100%;
     display: grid;
-    grid-template-columns: 35vw 35vw;
-    grid-template-rows: 45vh 45vh 20vh;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows: 55vh 75vh 20vh;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
     grid-gap: 50px;
 }
+.divOne h3{
+    margin: 0 0 15px 0;
+    font-size: 1.6em;
+}
+.divOne input{
+    height: 5vh;
+    width: 80%;
+    margin: 10px;
+}
+.divOne input::placeholder{
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 1vw;
+    opacity: 0.5;
+}
+.divTwo h3{
+    font-size: 1.6em;
+    margin: 0 0 10px 0;
+}
+.divTwo p{
+    font-size: 1.2em;
+    width: 85%;
+}
+.divThree input{
+    height: 5vh;
+    width: 80%;
+    margin: 10px;
+}
+.divFour input{
+    height: 5vh;
+    width: 80%;
+    margin: 10px;
+}
+.divThree input::placeholder{
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 1vw;
+    opacity: 0.5;
+}
+.divFour input::placeholder{
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    padding-left: 1vw;
+    opacity: 0.5;
+}
 .divOne, .divTwo, .divThree, .divFour{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     font-size: 0.7em;
     height: 100%;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: white;
     color: black;
     box-shadow: 0px 0px 6px 2px rgb(0, 0, 0);
 }
 .divs{
-    display: flex;
-    justify-content: space-between;
-    margin: 1vh 3vw 1vh 3vw;
+    width: 82%;
+    height: 6vh;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
-.divOne div{
-    margin-top: 3vh
+.divs select{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2em;
 }
 .npp{
     display: flex;
@@ -39,7 +94,20 @@
     width: 90%;
 }
 .npp input{
-    width: 3vw;
+    width: 5vw;
+    height: 3vh;
+}
+.select{
+    height: 4vh;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.9em;
+    font-weight: bold;
+}
+.select option:not(.optOne){
+    color: black;
 }
 .divFive{
     grid-column: 1/3;
@@ -69,12 +137,113 @@
         margin-top: 3vh;
         margin-bottom: 3vh;
     }
-    .divOne, .divTwo, .divThree, .divFour{
+    .divOne, .divTwo{
         width: 80%;
-        height: 35vh;
+        height: 45vh;
+    }
+    .divThree, .divFour{
+        width: 80%;
+        height: 60vh;
     }
     .divFive button{
         width: 50vw;
         margin: 20px;
+    }
+    .divOne input::placeholder{
+        font-size: 0.7em;
+    }
+    .divOne h3{
+        padding-top: 3vh;
+    }
+    .divOne input:nth-last-of-type(1){
+        margin-bottom: 4vh;
+    }
+    .divThree input::placeholder{
+        font-size: 0.9em;
+    }
+    .divThree {
+        font-size: 0.6em;
+    }
+    .npp input{
+        width: 14vw;
+    }
+    .divs:nth-last-of-type(1){
+        margin-bottom: 3vh;
+    }
+    .divFour input::placeholder{
+        font-size: 0.9em;
+    }
+    .divFour {
+        font-size: 0.6em;
+    }
+}
+@media (min-height: 1023px){
+    .Presupuesto h1{
+        font-size: 4em;
+    }
+    .Presupuesto p {
+        font-size: 2.5em;
+    }
+    .forms{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 45vw 45vw;
+        grid-template-rows: 20vh 25vh 10vh;
+    }
+    .divFive button{
+        width: 50vw;
+        margin: 20px;
+    }
+    .divOne input::placeholder{
+        font-size: 1.6em;
+    }
+    .divOne h3{
+        font-size: 3em;
+        padding-top: 2vh;
+    }
+    .divOne input:nth-last-of-type(1){
+        margin-bottom: 2vh;
+    }
+    .divThree input::placeholder{
+        font-size: 1.6em;
+    }
+    .divThree {
+        font-size: 1em;
+    }
+    .npp input{
+        width: 10vw;
+        height: 1.6vh;
+    }
+    .divs:nth-last-of-type(1){
+        margin-bottom: 2vh;
+    }
+    .divFour input::placeholder{
+        font-size: 1.6em;
+    }
+    .divFour {
+        font-size: 1em;
+    }
+    .divFive{
+        font-size: 2.4em;
+    }
+    .divFive input{
+        height: 1.4vh;
+        width: 7vw;
+    }
+    .divFive button{
+        height: 5vh;
+        border-radius: 25px;
+    }
+    .divTwo h3 { 
+        font-size: 3em;
+        margin-top: 1.5vh;
+    }
+    .divTwo p{
+        font-size: 1.6em;
+    }
+    .divTwo textarea{
+        height: 12vh;
+        width: 80%;
+        margin-bottom: 2vh;
     }
 }
