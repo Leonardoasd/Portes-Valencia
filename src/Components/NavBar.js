@@ -42,6 +42,8 @@ const NavBar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  
   const links = [
     {
       id: 1,

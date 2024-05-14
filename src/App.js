@@ -5,7 +5,7 @@ import Footer from './Components/footer.js';
 import Presupuesto from './Screens/Presupuesto.js';
 import { Route, Routes } from 'react-router-dom';
 import QuienesSomos from './Screens/QuienesSomos.js';
-import NavButton from './Components/navButton.js';
+import NavButton from './Components/NavButton.js';
 import Contacto from './Screens/Contacto.js';
 import ScrollToTop from './Components/ScrollToTop.js';
 import Opiniones from './Screens/Opiniones.js';
