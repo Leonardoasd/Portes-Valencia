@@ -83,8 +83,9 @@
 }
 @media (min-height: 1023px){
     .primerFooter{
-        height: 15vh;
+        height: auto;
         font-size: 2em;
+        margin-top: 50px;
     }
     .divIcons{
         width: 90vw;
@@ -95,16 +96,17 @@
         width: 10vw;
     }
     .secondFooter{
-        height: 30vh;
+        height: auto;
         font-size: 2em;
     }
     .divServicios{
-        height: 10vh;
+        height: auto;
         width: 90%;
         font-size: 0.7em;
+        margin: 30px 0 30px 0;
     }
     .secondFooter p{
-        margin-bottom: 6vh;
+        margin-bottom: 9vh;
         margin-top: 0;
     }
 }

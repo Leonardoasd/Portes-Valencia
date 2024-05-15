@@ -207,12 +207,12 @@
 }
 @media (min-height: 1300px){
     .navBar {
-        height: 220px;
+        height: 10vh;
         font-size: 1.8em;
     }
     .navBarScroll {
         font-size: 1.8em;
-        height: 220px;
+        height: 10vh;
     }
     .menuNav {
         height: 8vh;

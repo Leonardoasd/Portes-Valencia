@@ -90,3 +90,50 @@
         font-size: 0.8em;
     }
 }
+@media (min-height: 1000px){
+    .opiniones{
+        font-size: 2em;
+    }
+    .opiniones p{
+        width: 80vw;
+    }
+    .comentaryBox{
+        width: 80vw;
+        height: 55vh;
+        margin-top: 3vw;
+        margin-bottom: 3vh;
+    }
+    .comentaryBox input::placeholder{
+        width: 60vw;
+        font-size: 2em;
+    }
+    .textarea::placeholder{
+        width: 60vw;
+        font-size: 2em;
+    }
+    .button{
+        font-size: 1.4em;
+    }
+}
+@media (min-height: 2300px){
+    .opiniones{
+        font-size: 2em;
+    }
+    .comentaryBox{
+        width: 80vw;
+        height: 55vh;
+        margin-top: 3vw;
+        margin-bottom: 3vh;
+    }
+    .comentaryBox input::placeholder{
+        width: 60vw;
+        font-size: 2em;
+    }
+    .textarea::placeholder{
+        width: 60vw;
+        font-size: 2em;
+    }
+    .button{
+        font-size: 1.4em;
+    }
+}

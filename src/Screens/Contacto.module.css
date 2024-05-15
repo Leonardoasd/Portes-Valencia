@@ -129,3 +129,94 @@
         font-size: 0.8em;
     }
 }
+@media (min-height: 1023px){
+    .Contacto h1{
+        width: 80vw;
+    }
+    .Contacto p{
+        width: 86vw;
+    }
+    .comentaryBox{
+        width: 80vw;
+        height: 50vh;
+        margin-top: 3vw;
+        margin-bottom: 3vh;
+    }
+    .comentaryBox input:not(.textarea):not(.checkbox){
+        height: 4vh;
+    }
+    .comentaryBox input::placeholder{
+        width: 60vw;
+    }
+    .select{
+        height: 4vh;
+    }
+    .textarea{
+        height: 10vh;
+    }
+    .textarea::placeholder{
+        width: 60vw;
+    }
+    .comments{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+    .button{
+        width: 35vw;
+        height: 5vh;
+        font-size: 1em;
+    }
+    .divForm2{
+        font-size: 0.8em;
+    }
+}
+@media (min-height: 2300px){
+    .Contacto h1{
+        width: 80vw;
+        font-size: 3em;
+    }
+    .Contacto p{
+        width: 86vw;
+        font-size: 2em;
+    }
+    .comentaryBox{
+        width: 80vw;
+        height: 50vh;
+        margin-top: 3vw;
+        margin-bottom: 3vh;
+    }
+    .comentaryBox input:not(.textarea):not(.checkbox){
+        height: 4vh;
+    }
+    .comentaryBox input::placeholder{
+        width: 60vw;
+        font-size: 2em;
+    }
+    .select{
+        height: 4vh;
+        font-size: 2em;
+    }
+    .textarea{
+        height: 10vh;
+        font-size: 2em;
+    }
+    .textarea::placeholder{
+        width: 60vw;
+    }
+    .comments{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+    }
+    .button{
+        width: 35vw;
+        height: 5vh;
+        font-size: 2.4em;
+    }
+    .divForm2{
+        font-size: 2em;
+    }
+    .checkbox{
+        height: 35px;
+        width: 35px;
+    }
+}
