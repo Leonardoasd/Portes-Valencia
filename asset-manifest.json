@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portes-Valencia/static/css/main.fe9ae551.css",
+    "main.css": "/Portes-Valencia/static/css/main.397d9c57.css",
     "main.js": "/Portes-Valencia/static/js/main.055d0fac.js",
     "static/js/453.ec22b987.chunk.js": "/Portes-Valencia/static/js/453.ec22b987.chunk.js",
     "static/media/fondo-porte.jpg": "/Portes-Valencia/static/media/fondo-porte.208c982434ad6376ef6a.jpg",
@@ -19,12 +19,12 @@
     "static/media/69.jpg": "/Portes-Valencia/static/media/69.7aa06873d1ea56fea8ac.jpg",
     "static/media/pic05.jpg": "/Portes-Valencia/static/media/pic05.851a2e9f61bb08361691.jpg",
     "index.html": "/Portes-Valencia/index.html",
-    "main.fe9ae551.css.map": "/Portes-Valencia/static/css/main.fe9ae551.css.map",
+    "main.397d9c57.css.map": "/Portes-Valencia/static/css/main.397d9c57.css.map",
     "main.055d0fac.js.map": "/Portes-Valencia/static/js/main.055d0fac.js.map",
     "453.ec22b987.chunk.js.map": "/Portes-Valencia/static/js/453.ec22b987.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe9ae551.css",
+    "static/css/main.397d9c57.css",
     "static/js/main.055d0fac.js"
   ]
 }
